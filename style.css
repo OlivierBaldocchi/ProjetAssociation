@@ -1,6 +1,15 @@
+/* page index.html */
+
 :root {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+h3,
+h4  {
+    color: orange;
+}
+
+/* header */
 
 header > nav > div > ul {
     justify-content: center;
@@ -14,12 +23,18 @@ header nav {
     padding-left: 150px;
 }
 
+/* main section 1 */
+
 .title {
     text-align: center;
     padding: 30px 0 30px 200px;
     color: rgb(48, 85, 207);
-    font-size: 50px;
+    
     text-transform: uppercase;
+}
+
+.title > h1 {
+   font-size: 50px; 
 }
 
 .image1 {
@@ -42,8 +57,7 @@ header nav {
     height: 50px;
     border-radius: 50px;
     margin: auto;
-    
-} 
+}
 
 .button1 a {
     color: white;
@@ -52,7 +66,8 @@ header nav {
     font-weight: bold;
 }
 
-#button2 {
+.button2,
+.button5    {
     background-color: rgb(255, 123, 0);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,14 +98,16 @@ header nav {
     padding-top: 20px;
 }
 
+/* main section 2 */
+
 .welcome {
-    color: rgb(78, 149, 216);
-    font-family: 'Brush Script MT';
     margin-top: 100px;
 }
 
-.welcome h1 {
+.welcome h3 {
     font-size: 80px;
+    color: rgb(78, 149, 216);
+    font-family: 'Brush Script MT';
 }
 
 .pattes {
@@ -122,6 +139,8 @@ article {
 .text {
     text-align: center;
 }
+
+/* main section 3 */
 
 .cat {
     margin: 20px;
@@ -160,6 +179,8 @@ div h3 p {
     color: white;
 }
 
+/* footer */
+
 .foot {
     margin-top: 50px;
     position: relative;
@@ -177,7 +198,7 @@ div h3 p {
     border-radius: 50px;
 }
 
-footer h2 {
+footer div p {
     text-align: center;
     margin: 20px;
     color: white;
@@ -190,13 +211,20 @@ footer h2 {
 }
 
 .button5 {
-    background-color: rgb(255, 123, 0);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     margin: 15px 30px 10px 500px;
-    padding: 15px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-} 
+}
+
+/* page actualite.html */
+
+.cat5 {
+    margin-top: 100px;
+}
+
+.cat5 > img {
+    border-radius: 20px;
+}
+
+.invit {
+    color: orange;
+    font-family: 'Brush Script MT';
+}
