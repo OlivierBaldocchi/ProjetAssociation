@@ -9,62 +9,97 @@ h4  {
     color: orange;
 }
 
-/* header */
+.nav ul li:first-child {
+    margin-left: 150px;
+}
 
-header > nav > div > ul {
-    justify-content: center;
+.nav ul li {
+    display: inline-block;
+    margin: 40px 80px 0 0;
+}
+
+.margesvg   {
+    margin-top: 40px;
+}
+
+/* header 
+
+.nav-item a,
+.nav-item svg {
+    margin-left: 20px;
+} 
+
+
+
+.nav-item a:hover    {
+    background-color: orange;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
 }
 
 header nav {
-    box-shadow: 10px 10px 10px lightgray;
+    box-shadow: 5px 10px 10px lightgray;
 }
 
 .image {
     padding-left: 150px;
 }
 
-/* main section 1 */
+ main section 1 */
+
+.head {
+    display: inline-block;
+}
 
 .title {
     text-align: center;
-    padding: 30px 0 30px 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: rgb(48, 85, 207);
-    
     text-transform: uppercase;
+    
 }
 
 .title > h1 {
-   font-size: 50px; 
+   font-size: 4vw; 
 }
 
-.image1 {
-    background-image: url(cat.jpg);
-    height: 400px;
+.contImg    {
+    position: relative;
+}
+
+.textImage  {
+    position: absolute;
+    top: 3vh;
+    left: 6vw;
     font-family: 'Brush Script MT';
+    font-size: 5vw;
+    color:darkslateblue;
 }
 
-.image1 h2 {
-    font-size: 70px;
-    padding: 120px 150px;
-    color:darkslateblue;
+
+
+.but1{
+    margin-top: 55px;
+    margin-bottom: 10px;
 }
 
 .button1 {
     background-color: darkorange;
-    font-size: 16px;
+    
     font-family: Arial, Helvetica, sans-serif;
-    width: 200px;
-    height: 50px;
+    width: 250px;
     border-radius: 50px;
-    margin: auto;
-}
-
-.button1 a {
+    padding: 15px;
     color: white;
     text-decoration: none;
-    line-height: 50px;
     font-weight: bold;
 }
+
+
+    
+    
 
 .button2,
 .button5    {
@@ -77,6 +112,7 @@ header nav {
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .description {
@@ -128,7 +164,8 @@ article {
     border-radius: 50px;
     background-color:  rgb(48, 85, 207);
     width: 200px;
-    padding: 10px;
+    padding: 15px;
+    text-align: center;
 }
 
 .button3 a {
