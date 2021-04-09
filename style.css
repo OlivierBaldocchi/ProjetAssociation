@@ -9,29 +9,21 @@ h4  {
     color: orange;
 }
 
-.nav ul li:first-child {
-    margin-left: 150px;
-}
-
 .nav ul li {
-    display: inline-block;
-    margin: 40px 80px 0 0;
+    margin-left: 100px;
+    
 }
 
 .margesvg   {
     margin-top: 40px;
+    margin-right: 10px;
 }
 
-/* header 
 
-.nav-item a,
-.nav-item svg {
-    margin-left: 20px;
-} 
+/* header */ 
 
 
-
-.nav-item a:hover    {
+.nav-link:hover    {
     background-color: orange;
     border-radius: 50px;
     color: white;
@@ -39,31 +31,47 @@ h4  {
 }
 
 header nav {
-    box-shadow: 5px 10px 10px lightgray;
+    box-shadow: 10px 10px 10px lightgray;
 }
 
-.image {
-    padding-left: 150px;
-}
 
- main section 1 */
+/* main section 1 */
 
-.head {
-    display: inline-block;
-}
+
 
 .title {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 30px;
     color: rgb(48, 85, 207);
     text-transform: uppercase;
-    
 }
 
 .title > h1 {
-   font-size: 4vw; 
+   font-size: 60px; 
+   margin-left: 60px;
 }
+
+.button1 {
+    margin-top: 40px;
+    background-color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px)    {
+    .title > h1 {
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    .button1    {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
 
 .contImg    {
     position: relative;
@@ -73,35 +81,42 @@ header nav {
     position: absolute;
     top: 3vh;
     left: 6vw;
-    font-family: 'Brush Script MT';
-    font-size: 5vw;
-    color:darkslateblue;
-}
-
-
-
-.but1{
-    margin-top: 55px;
-    margin-bottom: 10px;
-}
-
-.button1 {
-    background-color: darkorange;
     
-    font-family: Arial, Helvetica, sans-serif;
-    width: 250px;
-    border-radius: 50px;
-    padding: 15px;
+}
+
+.textImage h2 {
+    font-family: 'Brush Script MT';
+    font-size: 5.5vw;
+    color:darkslateblue;
+    margin-bottom: 40px;
+}
+
+
+ .button2   {
+    background-color: rgb(255, 123, 0);
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
+@media screen and (max-width: 768px)    {
+    .button2    {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .textImage h2   {
+        margin-bottom: 5px;
+    }
+}
 
-    
-    
+  
 
-.button2,
+
+
 .button5    {
     background-color: rgb(255, 123, 0);
     color: white;
@@ -121,39 +136,45 @@ header nav {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    line-height: 30px;
-    padding-top: 10px;
+    padding: 10px;
+    
 }
 
 .declaration {
     background-color: grey;
     color: white;
     text-align: center;
-    padding: auto;
+    padding: 10px;
     font-weight: bold;
-    padding-top: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px)    {
+    .description,
+    .declaration    {
+        font-size: 15px;
+    }
 }
 
 /* main section 2 */
 
-.welcome {
-    margin-top: 100px;
+.welcome    {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    margin: 50px 20px 10px 20px;
+    
 }
 
-.welcome h3 {
+.pattes h3 {
     font-size: 80px;
     color: rgb(78, 149, 216);
     font-family: 'Brush Script MT';
 }
 
-.pattes {
-    margin-top: 100px;
-    margin-left: 150px;
-}
 
 article {
     width: 700px;
-    text-align: center;
 }
 
 .art1 {
@@ -166,6 +187,7 @@ article {
     width: 200px;
     padding: 15px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .button3 a {
@@ -221,15 +243,15 @@ div h3 p {
 .foot {
     margin-top: 50px;
     position: relative;
-    height: 600px;
+    height: 700px;
     background-color: rgb(48, 85, 207);
 }
 
 .contact {
-    width: 700px;
-    height: 350px;
+    width: 60vw;
+    height: 30em;
     position: absolute;
-    left: 200px;
+    left: 20vw;
     top: 100px;
     border: white 1px solid;
     border-radius: 50px;
@@ -248,7 +270,7 @@ footer div p {
 }
 
 .button5 {
-    margin: 15px 30px 10px 500px;
+    margin: 30px 30px 10px 45vw;
 }
 
 /* page actualite.html */

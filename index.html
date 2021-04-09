@@ -7,31 +7,44 @@
     <meta type="description" content="Site de l'association les chats du XXème, association qui oeuvre pour la protection, sauvegarde et adoption des chats
             errants du 20ème arrondissement de Paris">
     <title>Les chats du XXème</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
-          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="container-fluid card sticky-top"> 
-        <nav class="row justify-content-around">
-            <div class="col-2 image btn"><a href="c:/Users/Olivier/projetAssociation/index.html">
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-brand image btn"><a href="c:/Users/Olivier/projetAssociation/index.html">
                 <img 
                     src="logo-cat.jpg" 
                     height="100px" 
                     width="100px" 
                     alt="logo association"></a>
             </div>
+            
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
                 
-            <div class="col-9 d-none d-lg-block nav">
-                <ul>
-                    <li class="marge1"><a href="c:/Users/Olivier/projetAssociation/index.html" class="nav-link">ACCUEIL</a></li>
-                    <li><a href="c:/Users/Olivier/projetAssociation/index.html#adoptions" class="nav-link">ADOPTIONS</a></li>
-                    <li><a href="c:/Users/Olivier/projetAssociation/actualite-chats-du-XX.html" class="nav-link">ACTUALITES</a></li>
-                    <li><a href="c:/Users/Olivier/projetAssociation/index.html#contact" class="nav-link">CONTACT</a></li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                </svg>    
+            </button>
+
+            <div class="nav collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="c:/Users/Olivier/projetAssociation/index.html" class="nav-link">ACCUEIL</a></li>
+                    <li class="nav-item"><a href="c:/Users/Olivier/projetAssociation/index.html#adoptions" class="nav-link">ADOPTIONS</a></li>
+                    <li class="nav-item"><a href="c:\Users\Olivier\projetAssociation\actualite-chats-du-XX.html" class="nav-link">ACTUALITES</a></li>
+                    <li class="nav-item"><a href="c:/Users/Olivier/projetAssociation/index.html#contact" class="nav-link">CONTACT</a></li>
                 </ul>    
             </div>
 
-            <div class="col-1 margesvg">
+            <div class="margesvg">
                 <svg style="color: blue;" role="button" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 
                 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 
@@ -49,7 +62,8 @@
                 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 
                 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                 </svg>    
-            </div>           
+            </div>       
+                
         </nav>               
     </header>                   
                         
@@ -63,53 +77,50 @@
             <div class="container">
                 <div class="row">
                     
-                    <div class="title col col-sm-8 col-12">
+                    <div class="col-9 title">
                         <h1>Les Chats du XXème</h1>
-                        </div>    
-                        <div class="col col-sm-4 but1">
-                        <a href="#" class="button1">Adhérer à l'association</a>
+                    </div>    
+                    <div class="col-3">
+                        <button class="btn button1">Adhérer à l'association</button>
                     </div>
                     
                 </div>
             
             <div class="container contImg">
                 <div class="row">
-                    <div class="col img">
-                        <img class="img-responsive" src="cat.jpg" style="width:100%" alt="chat" >
-                            <h2 class="textImage">Adoptez un chat<br>ou un chaton</h2>
-                    
-                    
-                        <a href="#" class="button2">Voir tous les chats</a>
-                   
-                    
-                </div>
-                <div class="row description">
+                    <img class="img-responsive img" src="cat.jpg" style="width:100%" alt="chat" >
+                <div class="textImage">
+                    <h2>Adoptez un chat<br>ou un chaton</h2>
+                    <button href="#" class="btn button2">Voir tous les chats</button>
+                </div>           
+                 
+                                          
+            <div class="container">
+                <div class="description">
                     <p>Défense et sauvegarde des chats errants <br>du XXème arrondissement de  Paris </p>
                 </div>
-                <div class="row declaration">
+                <div class="declaration">
                     <p>Les Chats du XXème est la seule association dont l'activité est validée par le Préfet de Paris et notre partenaire La Mairie du XXème.</p>
                 </div>
-            </div>    
+            </div>                
                 
-                   
         </section>
 
         <section>
-            <div class="container">
-                <div class="row">
-                    <div class="pattes col col-md-2">
-                        <img src="pattes.jpg" alt="pattes de chat">
-                    </div>
-                    <div class="welcome col col-md-7">
-                        <h3>Bienvenue sur le site <br>de l'association</h3>
-                    </div>
+            <div class="welcome">
+                <div class="pattes">
+                        <h3>
+                        <img src="pattes.jpg" class="img-responsive" width="10%" alt="pattes de chat">
+                    
+                        Bienvenue sur le site <br>de l'association</h3>
+                    
                 </div>
                 
             </div>
             
             <div>
                 <div class="container">
-                    <div class="row">
+                    <div class="row text">
                         <div class="col-lg-12 col-xs-4 art1">
                             <h4>Vous souhaitez adopter un chat ou un chaton ?</h4>
                             <p></p>
@@ -128,7 +139,7 @@
 
             <div>
                 <div class="container">
-                    <div class="row">
+                    <div class="row text">
                         <div class="col-lg-12 col-xs-4 art1">
                             <h4>Vous voulez connaître notre histoire, découvrir comment l’association a vu le jour ?</h4>
                             <p></p>
@@ -145,7 +156,7 @@
             
             <div>
                 <div class="container">
-                    <div class="row">
+                    <div class="row text">
                         <div class="col-lg-12 col-xs-4 art1">
                             <h4>Vous êtes sensible à la cause de Chats du XXème et vous aimeriez nous aider dans nos missions ?</h4>
                             <p></p>
@@ -162,7 +173,7 @@
             
             <div>
                 <div class="container">
-                    <div class="row">
+                    <div class="row text">
                         <div class="col-lg-12 col-xs-4 art1">
                             <h4>Nous vous présentons les membres du bureau ainsi que les équipes bénévoles sur les sites de Paris XX</h4>
                             <p></p>
@@ -267,8 +278,9 @@
             </form>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    
 </body>
 </html>
