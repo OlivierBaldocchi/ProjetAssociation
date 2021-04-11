@@ -21,23 +21,38 @@
 </head>
 <body>
     <header class="container-fluid card sticky-top"> 
-        <nav class="row">
-            <div class="col-2 image btn"><a href="c:/Users/Olivier/projetAssociation/index.html">
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-brand image btn"><a href="file:///C:/Users/Olivier/ProjetAssociation/index.html">
                 <img 
                     src="logo-cat.jpg" 
                     height="100px" 
                     width="100px" 
-                    alt="logo association"></a></div>
-                
-            <div class="col-9 nav">
-                <ul>
-                    <li class="marge1"><a href="c:/Users/Olivier/projetAssociation/index.html" class="nav-link">ACCUEIL</a></li>
-                    <li><a href="c:/Users/Olivier/projetAssociation/index.html#adoptions" class="nav-link">ADOPTIONS</a></li>
-                    <li><a href="c:/Users/Olivier/projetAssociation/actualite-chats-du-XX.html" class="nav-link">ACTUALITES</a></li>
-                    <li><a href="c:/Users/Olivier/projetAssociation/index.html#contact" class="nav-link">CONTACT</a></li>
+                    alt="logo association"></a>
+            </div>
+            
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                </svg>    
+            </button>
+
+            <div class="nav collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="file:///C:/Users/Olivier/ProjetAssociation/index.html" class="nav-link">ACCUEIL</a></li>
+                    <li class="nav-item"><a href="file:///C:/Users/Olivier/ProjetAssociation/index.html#adoptions" class="nav-link">ADOPTIONS</a></li>
+                    <li class="nav-item"><a href="file:///C:/Users/Olivier/ProjetAssociation/actualite-chats-du-XX.html" class="nav-link">ACTUALITES</a></li>
+                    <li class="nav-item"><a href="file:///C:/Users/Olivier/ProjetAssociation/index.html#contact" class="nav-link">CONTACT</a></li>
                 </ul>    
-                            
-            <div class="col-1 margesvg">
+            </div>
+
+            <div class="margesvg">
                 <svg style="color: blue;" role="button" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 
                 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 
@@ -55,17 +70,17 @@
                 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 
                 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                 </svg>    
-            </div>           
+            </div>       
         </nav>               
-    </header>       
+    </header>                   
 
     <main>
         <div class="container">
-            <div class="row">
-                <div class="pattes col-2">
+            <div class="row mt-5 justify-content-around">
+                <div class="pattes col-3">
                     <img src="pattes.jpg" alt="pattes de chat">
                 </div>
-                <div class="welcome col-8">
+                <div class="welcome col-8 titleActu">
                     <h1>Journée portes ouvertes !<br/>Samedi 3 juillet 2021</h1>
                 </div>
             </div>
@@ -73,10 +88,10 @@
         
         <div class="container">
             <div class="row">
-                <div class="col-5 cat5">
-                    <img width="500px" height="auto" src="c:/users/Olivier/projetAssociation/cat4.jpg" alt="chat noir et blanc">
+                <div class="col-12 col-sm-5 cat5">
+                    <img class="img-responsive" width="100%" height="auto" src="file:///C:/Users/Olivier/ProjetAssociation/cat4.jpg" alt="chat noir et blanc">
                 </div>
-                <div class="col-7 mt-5">
+                <div class="col-sm-7 mt-5">
                     <h5 style="color: orange;">Vous aimez les animaux et vous souhaiter accueillir un chat ou un chaton de manière temporaire ou vous souhaitez adopter.</h5>
                     <p></p>
                     <p>Devenez famille d’accueil pour Cats In The Air ! Cette expérience unique est riche en émotions. Elle vous donnera la satisfaction d’avoir ouvert votre cœur et donné sa chance à un animal en détresse.
@@ -121,10 +136,7 @@
             </form>
         </div>
     </footer>
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
 </body>
 </html>
