@@ -12,12 +12,12 @@ h4  {
 /* header */
 
 .nav ul li {
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .margesvg   {
     margin-top: 40px;
-    margin-right: 10px;
+    margin-right: 10x;
 }
 
 .nav-link:hover    {
@@ -144,13 +144,17 @@ header nav {
 }
 
 .pattes h3 {
-    font-size: 80px;
+    font-size: 60px;
     color: rgb(78, 149, 216);
     font-family: 'Brush Script MT';
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .art1 {
     margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .text {
@@ -259,7 +263,8 @@ footer div p {
 }
 
 .button5 {
-    margin: 30px 30px 10px 45vw;
+    margin-top: 30px;
+    margin-left: 35vw;
 }
 
 
