@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@600&display=swap');
 :root {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -47,8 +49,9 @@ header nav {
 }
 
 .title > h1 {
-   font-size: 60px; 
+   font-size: 50px; 
    margin-left: 60px;
+   font-family: 'Architects Daughter', cursive;
 }
 
 .button1 {
@@ -84,8 +87,8 @@ header nav {
 }
 
 .textImage h2 {
-    font-family: 'Brush Script MT';
-    font-size: 5.5vw;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5vw;
     color:darkslateblue;
     margin-bottom: 40px;
 }
@@ -147,9 +150,9 @@ header nav {
 }
 
 .pattes h3 {
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(78, 149, 216);
-    font-family: 'Brush Script MT';
+    font-family: 'Dancing Script', cursive;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -184,10 +187,10 @@ header nav {
 
 .catitle {
     color: rgb(78, 149, 216);
-    font-family: 'Brush Script MT';
+    font-family: 'Dancing Script', cursive;
     text-align: center;
     padding-top: 130px;
-    font-size: 80px;
+    font-size: 70px;
     
 }
 
@@ -203,7 +206,7 @@ header nav {
 }
 
 h3 {
-    font-family: 'Brush Script MT';
+    font-family: 'Dancing Script', cursive;
     font-size: 40px;
     text-align: center;
 }
@@ -258,8 +261,8 @@ div h3 p {
     text-align: center;
     margin: 20px;
     color: white;
-    font-family: 'Brush Script MT';
-    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
 }
 
 .formulaire {
